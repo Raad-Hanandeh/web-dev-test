@@ -16,6 +16,12 @@
   /* margin-right: 81px; */
 }
 
+.x-scroll {
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+
+
 @media (min-width: 476px) {
   .sec1 {
     position: relative;
@@ -164,11 +170,6 @@
     margin: 0 20px 0 0;
   }
 
-  .flex {
-    display: flex;
-    /* justify-items: center; */
-    /* justify-content: space-around; */
-  }
   .sec2 {
     background: #fafafb;
     padding: 29px 0 0 0;
