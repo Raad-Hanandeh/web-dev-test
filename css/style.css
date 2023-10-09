@@ -1,7 +1,7 @@
-main {
+/* main {
   width: 1440px;
   margin: auto;
-}
+} */
 .pad-left {
   padding-left: 48px;
 }
@@ -16,7 +16,82 @@ main {
   /* margin-right: 81px; */
 }
 
-@media (min-width: 576px) {
+@media (min-width: 476px) {
+  .sec1 {
+    position: relative;
+  }
+  .text-abs {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    transform: translateY(-30%);
+    left: 0;
+    right: 0;
+  }
+  .text-abs h2 {
+    color: #fff;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 44.8px */
+  }
+  .text-abs p {
+    color: #e7e7e7;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+  .pink-btn {
+    display: inline-flex;
+    font-family: "Inter", sans-serif;
+    height: 44px;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #ff626a;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    border: 1px solid #ed4d55;
+  }
+  .trans-btn {
+    display: inline-flex;
+    font-family: "Inter", sans-serif;
+    height: 44px;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    background-color: transparent;
+  }
+  .pink-mobile {
+    margin: 0 4px 0 0;
+  }
+  .sec2-mobile {
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -71,7 +146,7 @@ main {
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
-    margin: 0 12px;
+    margin: 0 20px 0 0;
   }
   .trans-btn {
     font-family: "Inter", sans-serif;
@@ -86,7 +161,7 @@ main {
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
-    margin: 0 12px;
+    margin: 0 20px 0 0;
   }
 
   .flex {
@@ -481,15 +556,4 @@ line-height: 140%;
 }
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
-}
-
-.cls {
-  display: block;
-}
-.frinds {
-  display: none;
-}
-.raad {
-  display: none;
-  background-attachment: fixed;
 }
